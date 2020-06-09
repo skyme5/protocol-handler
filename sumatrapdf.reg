@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\protocol-handler]
+"URL Protocol"=""
+@="URL:Rust Protocol Handler"
+"DefaultIcon"="\"C:\\Program Files\\SumatraPDF\\SumatraPDF.exe\",1"
+
+[HKEY_CLASSES_ROOT\protocol-handler\shell]
+
+[HKEY_CLASSES_ROOT\protocol-handler\shell\open]
+
+[HKEY_CLASSES_ROOT\protocol-handler\shell\open\command]
+@="\"C:\\tools\\bin\\protocol-handler.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\URLWhitelist]
+"1"="protocol-handler://*"
